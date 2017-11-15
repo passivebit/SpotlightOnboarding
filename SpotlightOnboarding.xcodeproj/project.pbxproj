@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0505657C1FBCB96500D87F98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505657B1FBCB96500D87F98 /* AppDelegate.m */; };
+		0505657F1FBCB96500D87F98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505657E1FBCB96500D87F98 /* ViewController.m */; };
+		050565821FBCB96500D87F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050565801FBCB96500D87F98 /* Main.storyboard */; };
+		050565841FBCB96500D87F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050565831FBCB96500D87F98 /* Assets.xcassets */; };
+		050565871FBCB96500D87F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050565851FBCB96500D87F98 /* LaunchScreen.storyboard */; };
+		0505658A1FBCB96500D87F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 050565891FBCB96500D87F98 /* main.m */; };
+		050565941FBCB96500D87F98 /* SpotlightOnboardingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 050565931FBCB96500D87F98 /* SpotlightOnboardingTests.m */; };
+		0505659F1FBCB96500D87F98 /* SpotlightOnboardingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505659E1FBCB96500D87F98 /* SpotlightOnboardingUITests.m */; };
+		050565AF1FBCBB7200D87F98 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050565AE1FBCBB7200D87F98 /* TutorialViewController.m */; };
+		050565B21FBCBB8C00D87F98 /* TutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 050565B11FBCBB8C00D87F98 /* TutorialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		050565901FBCB96500D87F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0505656F1FBCB96500D87F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050565761FBCB96500D87F98;
+			remoteInfo = SpotlightOnboarding;
+		};
+		0505659B1FBCB96500D87F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0505656F1FBCB96500D87F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050565761FBCB96500D87F98;
+			remoteInfo = SpotlightOnboarding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050565771FBCB96500D87F98 /* SpotlightOnboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0505657A1FBCB96500D87F98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0505657B1FBCB96500D87F98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0505657D1FBCB96500D87F98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0505657E1FBCB96500D87F98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		050565811FBCB96500D87F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		050565831FBCB96500D87F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		050565861FBCB96500D87F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		050565881FBCB96500D87F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050565891FBCB96500D87F98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0505658F1FBCB96500D87F98 /* SpotlightOnboardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightOnboardingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		050565931FBCB96500D87F98 /* SpotlightOnboardingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightOnboardingTests.m; sourceTree = "<group>"; };
+		050565951FBCB96500D87F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0505659A1FBCB96500D87F98 /* SpotlightOnboardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightOnboardingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0505659E1FBCB96500D87F98 /* SpotlightOnboardingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightOnboardingUITests.m; sourceTree = "<group>"; };
+		050565A01FBCB96500D87F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050565AD1FBCBB7200D87F98 /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		050565AE1FBCBB7200D87F98 /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		050565B01FBCBB8B00D87F98 /* TutorialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialView.h; sourceTree = "<group>"; };
+		050565B11FBCBB8C00D87F98 /* TutorialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050565741FBCB96500D87F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505658C1FBCB96500D87F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050565971FBCB96500D87F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0505656E1FBCB96500D87F98 = {
+			isa = PBXGroup;
+			children = (
+				050565791FBCB96500D87F98 /* SpotlightOnboarding */,
+				050565921FBCB96500D87F98 /* SpotlightOnboardingTests */,
+				0505659D1FBCB96500D87F98 /* SpotlightOnboardingUITests */,
+				050565781FBCB96500D87F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		050565781FBCB96500D87F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				050565771FBCB96500D87F98 /* SpotlightOnboarding.app */,
+				0505658F1FBCB96500D87F98 /* SpotlightOnboardingTests.xctest */,
+				0505659A1FBCB96500D87F98 /* SpotlightOnboardingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		050565791FBCB96500D87F98 /* SpotlightOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0505657A1FBCB96500D87F98 /* AppDelegate.h */,
+				0505657B1FBCB96500D87F98 /* AppDelegate.m */,
+				0505657D1FBCB96500D87F98 /* ViewController.h */,
+				0505657E1FBCB96500D87F98 /* ViewController.m */,
+				050565B31FBCBF8400D87F98 /* Tutorials */,
+				050565801FBCB96500D87F98 /* Main.storyboard */,
+				050565831FBCB96500D87F98 /* Assets.xcassets */,
+				050565851FBCB96500D87F98 /* LaunchScreen.storyboard */,
+				050565881FBCB96500D87F98 /* Info.plist */,
+				050565891FBCB96500D87F98 /* main.m */,
+			);
+			path = SpotlightOnboarding;
+			sourceTree = "<group>";
+		};
+		050565921FBCB96500D87F98 /* SpotlightOnboardingTests */ = {
+			isa = PBXGroup;
+			children = (
+				050565931FBCB96500D87F98 /* SpotlightOnboardingTests.m */,
+				050565951FBCB96500D87F98 /* Info.plist */,
+			);
+			path = SpotlightOnboardingTests;
+			sourceTree = "<group>";
+		};
+		0505659D1FBCB96500D87F98 /* SpotlightOnboardingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0505659E1FBCB96500D87F98 /* SpotlightOnboardingUITests.m */,
+				050565A01FBCB96500D87F98 /* Info.plist */,
+			);
+			path = SpotlightOnboardingUITests;
+			sourceTree = "<group>";
+		};
+		050565B31FBCBF8400D87F98 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				050565AD1FBCBB7200D87F98 /* TutorialViewController.h */,
+				050565AE1FBCBB7200D87F98 /* TutorialViewController.m */,
+				050565B01FBCBB8B00D87F98 /* TutorialView.h */,
+				050565B11FBCBB8C00D87F98 /* TutorialView.m */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050565761FBCB96500D87F98 /* SpotlightOnboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050565A31FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboarding" */;
+			buildPhases = (
+				050565731FBCB96500D87F98 /* Sources */,
+				050565741FBCB96500D87F98 /* Frameworks */,
+				050565751FBCB96500D87F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotlightOnboarding;
+			productName = SpotlightOnboarding;
+			productReference = 050565771FBCB96500D87F98 /* SpotlightOnboarding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0505658E1FBCB96500D87F98 /* SpotlightOnboardingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050565A61FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboardingTests" */;
+			buildPhases = (
+				0505658B1FBCB96500D87F98 /* Sources */,
+				0505658C1FBCB96500D87F98 /* Frameworks */,
+				0505658D1FBCB96500D87F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050565911FBCB96500D87F98 /* PBXTargetDependency */,
+			);
+			name = SpotlightOnboardingTests;
+			productName = SpotlightOnboardingTests;
+			productReference = 0505658F1FBCB96500D87F98 /* SpotlightOnboardingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		050565991FBCB96500D87F98 /* SpotlightOnboardingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050565A91FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboardingUITests" */;
+			buildPhases = (
+				050565961FBCB96500D87F98 /* Sources */,
+				050565971FBCB96500D87F98 /* Frameworks */,
+				050565981FBCB96500D87F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0505659C1FBCB96500D87F98 /* PBXTargetDependency */,
+			);
+			name = SpotlightOnboardingUITests;
+			productName = SpotlightOnboardingUITests;
+			productReference = 0505659A1FBCB96500D87F98 /* SpotlightOnboardingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0505656F1FBCB96500D87F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ritu Raj";
+				TargetAttributes = {
+					050565761FBCB96500D87F98 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0505658E1FBCB96500D87F98 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 050565761FBCB96500D87F98;
+					};
+					050565991FBCB96500D87F98 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 050565761FBCB96500D87F98;
+					};
+				};
+			};
+			buildConfigurationList = 050565721FBCB96500D87F98 /* Build configuration list for PBXProject "SpotlightOnboarding" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0505656E1FBCB96500D87F98;
+			productRefGroup = 050565781FBCB96500D87F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050565761FBCB96500D87F98 /* SpotlightOnboarding */,
+				0505658E1FBCB96500D87F98 /* SpotlightOnboardingTests */,
+				050565991FBCB96500D87F98 /* SpotlightOnboardingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050565751FBCB96500D87F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050565871FBCB96500D87F98 /* LaunchScreen.storyboard in Resources */,
+				050565841FBCB96500D87F98 /* Assets.xcassets in Resources */,
+				050565821FBCB96500D87F98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505658D1FBCB96500D87F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050565981FBCB96500D87F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050565731FBCB96500D87F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505657F1FBCB96500D87F98 /* ViewController.m in Sources */,
+				0505658A1FBCB96500D87F98 /* main.m in Sources */,
+				050565AF1FBCBB7200D87F98 /* TutorialViewController.m in Sources */,
+				0505657C1FBCB96500D87F98 /* AppDelegate.m in Sources */,
+				050565B21FBCBB8C00D87F98 /* TutorialView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505658B1FBCB96500D87F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050565941FBCB96500D87F98 /* SpotlightOnboardingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050565961FBCB96500D87F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505659F1FBCB96500D87F98 /* SpotlightOnboardingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050565911FBCB96500D87F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050565761FBCB96500D87F98 /* SpotlightOnboarding */;
+			targetProxy = 050565901FBCB96500D87F98 /* PBXContainerItemProxy */;
+		};
+		0505659C1FBCB96500D87F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050565761FBCB96500D87F98 /* SpotlightOnboarding */;
+			targetProxy = 0505659B1FBCB96500D87F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		050565801FBCB96500D87F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050565811FBCB96500D87F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		050565851FBCB96500D87F98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050565861FBCB96500D87F98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050565A11FBCB96500D87F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		050565A21FBCB96500D87F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		050565A41FBCB96500D87F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EA5L2RM5W7;
+				INFOPLIST_FILE = SpotlightOnboarding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboarding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		050565A51FBCB96500D87F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EA5L2RM5W7;
+				INFOPLIST_FILE = SpotlightOnboarding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboarding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		050565A71FBCB96500D87F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotlightOnboardingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboardingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotlightOnboarding.app/SpotlightOnboarding";
+			};
+			name = Debug;
+		};
+		050565A81FBCB96500D87F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotlightOnboardingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboardingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotlightOnboarding.app/SpotlightOnboarding";
+			};
+			name = Release;
+		};
+		050565AA1FBCB96500D87F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotlightOnboardingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboardingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotlightOnboarding;
+			};
+			name = Debug;
+		};
+		050565AB1FBCB96500D87F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotlightOnboardingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.passivebit.SpotlightOnboardingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpotlightOnboarding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050565721FBCB96500D87F98 /* Build configuration list for PBXProject "SpotlightOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050565A11FBCB96500D87F98 /* Debug */,
+				050565A21FBCB96500D87F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050565A31FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050565A41FBCB96500D87F98 /* Debug */,
+				050565A51FBCB96500D87F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050565A61FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboardingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050565A71FBCB96500D87F98 /* Debug */,
+				050565A81FBCB96500D87F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050565A91FBCB96500D87F98 /* Build configuration list for PBXNativeTarget "SpotlightOnboardingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050565AA1FBCB96500D87F98 /* Debug */,
+				050565AB1FBCB96500D87F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0505656F1FBCB96500D87F98 /* Project object */;
+}
